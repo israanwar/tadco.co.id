@@ -9,180 +9,44 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="TADCO home">
-        <img src="images/logo.png" alt="PT. Tri Ariesta Dinamika - TADCO logo" />
-      </a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div class="shell nav-wrap">
+      <a class="brand" href="#home" aria-label="TADCO home"><img src="images/whatsapp_image_2024-04-29_at_13.46.27-removebg-YD0pQqVqZkix24o5.png" alt="TADCO" /></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">Menu</button>
       <nav class="main-nav" aria-label="Main navigation">
-        <a href="#home">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#blog">Blog</a>
+        <a class="is-active" href="#home">Home</a><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#blog">Blog</a>
       </nav>
     </div>
   </header>
-
   <main>
     <section id="home" class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">Established in June 1996</p>
-        <h1>PT. Tri Ariesta Dinamika - TADCO</h1>
-        <p>Specializing in energy, oil, and gas sector trading.</p>
-        <a class="button button-light" href="#about">Explore</a>
-      </div>
-    </section>
-
-    <section class="quote-section section-pad">
-      <div class="container quote-grid">
-        <div class="portrait-placeholder image-placeholder">Company portrait</div>
-        <div>
+      <div class="shell hero-grid">
+        <div class="hero-copy"><h1>PT. Tri Ariesta Dinamika - TADCO</h1><p>Established in June 1996, specializing in energy, oil,<br class="desktop-only" /> and gas sector trading.</p><a class="button" href="#portfolio">Explore</a></div>
+        <aside class="director-card" aria-label="President Director">
+          <img src="images/whatsapp-image-2024-07-16-at-14.58.24-Yg29k5BD5xIOkOD1.jpeg" alt="H.M. Pulu Niode" />
+          <div class="director-title"><a href="#about">H.M. Pulu Niode</a><strong>President Director</strong></div>
           <blockquote>“Hadapi tantangan, raih kesuksesan dengan semangat, sabar, dan ketekunan”</blockquote>
-          <p class="quote-author">H.M. Pulu Niode<br /><span>President Director</span></p>
-        </div>
+        </aside>
       </div>
     </section>
-
-    <section id="portfolio" class="section-pad section-muted">
-      <div class="container">
-        <p class="eyebrow">What we do</p>
-        <h2>Energy Trading</h2>
-        <p class="section-intro">Specializing in LPG, LNG, and oil fuel trading since 1996.</p>
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="service-image image-placeholder">Oil fuel trading image</div>
-            <h3>Oil Fuel Trading</h3>
-            <p>Licensed for general trading of oil and gas fuels.</p>
-            <a href="#contact" class="text-link">Learn more →</a>
-          </article>
-          <article class="service-card">
-            <div class="service-image image-placeholder">Marine transport image</div>
-            <h3>Marine Transport Services</h3>
-            <p>Providing marine transportation services for energy and oil products.</p>
-            <a href="#contact" class="text-link">Learn more →</a>
-          </article>
-          <article class="service-card">
-            <div class="service-image image-placeholder">Energy solutions image</div>
-            <h3>Energy Solutions Provider</h3>
-            <p>Delivering comprehensive energy solutions for your business needs.</p>
-            <a href="#contact" class="text-link">Learn more →</a>
-          </article>
-          <article class="service-card">
-            <div class="service-image image-placeholder">Quality assurance image</div>
-            <h3>Quality Assurance Services</h3>
-            <p>Ensuring top-notch quality in oil and gas trading processes.</p>
-            <a href="#contact" class="text-link">Learn more →</a>
-          </article>
-        </div>
+    <section id="portfolio" class="services section">
+      <div class="narrow intro"><h2>Energy Trading</h2><p>Specializing in LPG, LNG, and oil fuel trading since 1996.</p></div>
+      <div class="shell service-grid">
+        <article class="service-card"><img src="images/tdco-0128-dWxl3KO8agF13WD8.jpg" alt="Oil fuel trading vessel" /><div class="service-copy"><h3>Oil Fuel Trading</h3><p>Licensed for general trading of oil and gas fuels.</p></div></article>
+        <article class="service-card"><img src="images/tdco-0186-mv0jrVPVjEIMLaLL.jpg" alt="Marine transport facilities" /><div class="service-copy"><h3>Marine Transport Services</h3><p>Providing marine transportation services for energy and oil products.</p></div></article>
+        <article class="service-card"><img src="images/tdco-9037-YBgp9Kw5v6fZV8lM.jpg" alt="TADCO energy operations team" /><div class="service-copy"><h3>Energy Solutions Provider</h3><p>Delivering comprehensive energy solutions for your business needs.</p></div></article>
+        <article class="service-card"><img src="images/tdco-9091-AMqnQoErJMc86MBq.jpg" alt="TADCO quality assurance team" /><div class="service-copy"><h3>Quality Assurance Services</h3><p>Ensuring top-notch quality in oil and gas trading processes.</p></div></article>
       </div>
     </section>
-
-    <section id="about" class="section-pad">
-      <div class="container split-grid">
-        <div>
-          <p class="eyebrow">About Tri Ariesta Dinamika Tadco</p>
-          <h2>General Information</h2>
-          <p>PT. TRI ARIESTA DINAMIKA was established in June 1996. Our business focus is the Energy and Oil & Gas Sector, especially LPG, LNG and Oil Fuel Trading including marine transportation.</p>
-          <p>The company is a license holder to perform General Trading of Oil and Gas Fuel from the Ministry of Energy and Mineral Resources.</p>
-          <a class="button" href="#contact">Learn more</a>
-        </div>
-        <div class="about-image image-placeholder">Company facility image</div>
-      </div>
-    </section>
-
-    <section class="section-pad section-dark">
-      <div class="container split-grid mission-grid">
-        <div>
-          <p class="eyebrow">Our Mission and Vision</p>
-          <h2>Building reliable energy solutions</h2>
-        </div>
-        <div class="mission-copy">
-          <h3>Company Vision</h3>
-          <p>“Becoming the most reliable company in Oil & Gas full-stream.”</p>
-          <h3>Company Mission</h3>
-          <ul>
-            <li>Sustaining product and service reliability in Oil & Gas projects.</li>
-            <li>Ensuring satisfactory improvement for all stakeholders.</li>
-            <li>Raising accountability in social and environmental aspects.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad">
-      <div class="container">
-        <p class="eyebrow">Why TADCO</p>
-        <h2>High-Quality Energy Services</h2>
-        <p class="section-intro">Offering energy and oil & gas services since 1996, specializing in fuel trading and marine transportation.</p>
-        <div class="feature-grid">
-          <div><span class="feature-number">01</span><h3>Expertise in Fuel Trading</h3><p>Licensed by the Ministry of Energy and Mineral Resources for oil and gas fuel trading.</p></div>
-          <div><span class="feature-number">02</span><h3>Marine Transportation</h3><p>Experienced in marine transportation services for the energy and oil & gas sector.</p></div>
-          <div><span class="feature-number">03</span><h3>Strong Network</h3><p>Strong distribution, customer, and national and international partner networks.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad section-muted">
-      <div class="container two-column-list">
-        <div>
-          <p class="eyebrow">Assets & Facilities</p>
-          <h2>Operational capabilities</h2>
-          <ul class="check-list">
-            <li>Harbor in Gorontalo, Indonesia</li>
-            <li>LPG Special Filling Station and Transporting (SPPEK)</li>
-            <li>Jetty for LPG, LNG and oil tanker, up to 5000 DWT</li>
-            <li>LPG storage and support equipment, capacity of 500 MT</li>
-            <li>Offices, accommodation and support buildings</li>
-          </ul>
-        </div>
-        <div>
-          <p class="eyebrow">Certificates & Awards</p>
-          <h2>Commitment to excellence</h2>
-          <ul class="check-list">
-            <li>ISO 14001:2015 Environmental Management System</li>
-            <li>ISO 9001:2015 Quality Management System</li>
-            <li>OHSAS 18001:2007 Occupational Health and Safety</li>
-            <li>Recognized cooperation with leading energy companies</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact-section section-pad">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">Get in touch</p>
-          <h2>Let’s talk about your energy needs.</h2>
-          <p>Reach out to our team for information about our services and capabilities.</p>
-        </div>
-        <div class="contact-details">
-          <h3>Office Address</h3>
-          <p>Jl. Raya Baruga No. A28 – A30, Bukit Baruga, Makassar, 90234, Sulawesi Selatan</p>
-          <h3>SPPEK Address</h3>
-          <p>Pelabuhan Anggrek, Desa Ilangata, Kecamatan Anggrek, Kabupaten Gorontalo Utara, Provinsi Gorontalo</p>
-          <h3>Contact</h3>
-          <p>Telp: 085602533334<br />Email: <a href="mailto:admin@tadco.co.id">admin@tadco.co.id</a></p>
-        </div>
-      </div>
-    </section>
+    <section id="about" class="about section"><div class="shell about-grid"><div class="about-copy"><h2>About Tri Ariesta<br />Dinamika Tadco</h2><p>PT. TRI ARIESTA DINAMIKA was established in June 1996. Our business focus is the Energy and Oil &amp; Gas Sector, especially LPG, LNG and Oil Fuel Trading including marine transportation.</p><p>The company is a license holder to perform General Trading of Oil and Gas Fuel from the Ministry of Energy and Mineral Resources.</p></div><img src="images/tdco-0332-YleMgVGbGPhB4Qng.jpg" alt="PT. Tri Ariesta Dinamika operational team" /></div></section>
+    <section class="mission section-dark"><div class="shell mission-grid"><h2>Building reliable<br />energy solutions</h2><div><p class="overline">Our Mission and Vision</p><h3>Company Vision</h3><p>“Becoming the most reliable company in Oil &amp; Gas full-stream.”</p><h3>Company Mission</h3><ul><li>Sustaining product and service reliability in Oil &amp; Gas projects.</li><li>Ensuring satisfactory improvement for all stakeholders.</li><li>Raising accountability in social and environmental aspects.</li></ul></div></div></section>
+    <section id="blog" class="capabilities section"><div class="shell capability-grid"><div><p class="overline">Assets &amp; Facilities</p><h2>Operational capabilities</h2></div><ul><li>Harbor in Gorontalo, Indonesia</li><li>LPG Special Filling Station and Transporting (SPPEK)</li><li>Jetty for LPG, LNG and oil tanker, up to 5000 DWT</li><li>LPG storage and support equipment, capacity of 500 MT</li></ul></div></section>
+    <section id="contact" class="contact section-dark"><div class="shell contact-grid"><div><p class="overline">Contact</p><h2>Let's talk about<br />your energy needs.</h2></div><div><h3>Office Address</h3><p>Jl. Raya Baruga No. A28 – A30, Bukit Baruga, Makassar, 90234, Sulawesi Selatan</p><h3>SPPEK Address</h3><p>Pelabuhan Anggrek, Desa Ilangata, Kecamatan Anggrek, Kabupaten Gorontalo Utara, Provinsi Gorontalo</p><p><a href="tel:+6285602533334">Telp: 085602533334</a><br /><a href="mailto:admin@tadco.co.id">admin@tadco.co.id</a></p></div></div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <span>Copyright by TADco © 2024. All rights reserved.</span>
-      <a href="#home">Back to top ↑</a>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="shell">Copyright by TADco © 2024. All rights reserved.</div></footer>
   <script>
     const toggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.main-nav');
-    toggle.addEventListener('click', () => {
-      const open = nav.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', open);
-    });
+    toggle.addEventListener('click', () => { const open = nav.classList.toggle('is-open'); toggle.setAttribute('aria-expanded', open); });
   </script>
 </body>
 </html>

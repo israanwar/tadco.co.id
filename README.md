@@ -4,7 +4,7 @@ Baseline source repository for the public TADCO website.
 
 ## Status
 
-This first version is a **reconstruction generated with Hostinger Agent**, not a native export from Hostinger AI Builder. It preserves the initial information architecture and copy while the original visual assets, spacing, typography, animations, and responsive details are still being matched to the live site.
+This first version is a **reconstruction generated with Hostinger Agent**, not a native export from Hostinger AI Builder. It now uses approved local copies of the public TADCO logo and photography while spacing, animations, remaining sections, and responsive details are still being matched to the live site.
 
 ## Run locally
 
@@ -16,9 +16,8 @@ Then open `http://127.0.0.1:4174`.
 
 ## Known gaps
 
-- `images/logo.png` and `images/hero.jpg` still need to be supplied from approved TADCO assets.
-- Several image areas remain intentional placeholders.
-- The Blog navigation target is not implemented yet.
+- The desktop homepage reference currently covers the hero, services, and the beginning of About; the remaining page still needs visual comparison.
+- A mobile reference has not yet been captured, so responsive fidelity remains unverified.
 - No contact-form submission backend is included.
 
 ## Repository layout
